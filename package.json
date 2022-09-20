@@ -1,0 +1,38 @@
+{
+  "name": "react-native-stock-star-rating",
+  "version": "1.0.0",
+  "description": "☆ React Native stock star rating component with zero dependencies",
+  "main": "index.tsx",
+  "types": "index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmusaib/react-native-stock-star-rating.git"
+  },
+  "keywords": [
+    "star-rating",
+    "expo-star-rating",
+    "easy-star-rating",
+    "react-native-star-rating",
+    "stock-star-rating",
+    "react-native-stock-star-rating",
+    "expo-stock-star-rating",
+    "star rating",
+    "expo star rating",
+    "react native star rating",
+    "stock star rating",
+    "easy",
+    "star"
+  ],
+  "author": "Muhammad Musaib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmusaib/react-native-stock-star-rating/issues"
+  },
+  "homepage": "https://github.com/mmusaib/react-native-stock-star-rating#readme"
+}
