@@ -12,18 +12,6 @@
 </div>
 
 
-<p align="center">
-  <kbd>
-    <img
-      src="https://i.imgur.com/dtJcyvV.gif"
-      title="Star Rating"
-    >
-  </kbd>
-  <br>
-  <em>Star Rating Demo</em>
-</p>
-
-
 
 <h4>Light Weight <b>Easy</b> to use star rating.</h4>
 
