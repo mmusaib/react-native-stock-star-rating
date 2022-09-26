@@ -137,7 +137,7 @@ const App = () => {
 
 # ▶️ Watch Tutorial Video
 
-[![Watch video](https://i.imgur.com/OpsapYf.png)](https://youtu.be/eNCsP_YhGBk&t=15s)
+[![Watch video](https://i.imgur.com/IAxLuSA.png)](https://youtu.be/eNCsP_YhGBk&t=15s)
 
 
 For Live `Demo` [(Expo Snack)](https://snack.expo.dev/@mmusaib/react-native-stock-star-rating)
