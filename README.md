@@ -1,3 +1,7 @@
+|                          | |  |   |   |
+| --------------------------------------- | -------- | ---------- |---------- |---------- |
+| <a href="https://www.npmjs.com/package/react-native-stock-star-rating">![NPM VERSION](https://img.shields.io/npm/v/react-native-stock-star-rating?style=for-the-badge)</a> | <a href="https://www.npmjs.com/package/react-native-stock-star-rating">![NPM WEEKLY DOWNLOADS](https://img.shields.io/npm/dw/react-native-stock-star-rating?color=%232CA215&label=WEEKLY%20DOWNLOADS&style=for-the-badge)</a> | <a href="https://github.com/mmusaib/react-native-stock-star-rating/stargazers">![GITHUB STAR](https://img.shields.io/github/stars/mmusaib/react-native-stock-star-rating?label=Give%20Us%20A%20Star&style=for-the-badge)</a> | <a href="https://www.youtube.com/channel/UCSwIR2KBHiqiProH3Me8IZQ">![YOUTUBE VIEWS](https://img.shields.io/youtube/channel/views/UCSwIR2KBHiqiProH3Me8IZQ?label=YOUTUBE%20VIEWS&style=for-the-badge)</a> | <a href="https://www.npmjs.com/package/react-native-stock-star-rating">![NPM LIFETIME DOWNLOADS](https://img.shields.io/npm/dt/react-native-stock-star-rating?color=%232CA215&style=for-the-badge)</a>
+
 <h1 align="center">
   ☆ React Native Stock Star Rating 
 </h1>
