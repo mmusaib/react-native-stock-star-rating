@@ -1,6 +1,6 @@
 {
   "name": "react-native-stock-star-rating",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "☆ React Native stock star rating component with zero dependencies",
   "main": "index.tsx",
   "types": "index.d.ts",
