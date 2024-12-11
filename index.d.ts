@@ -1,43 +1,57 @@
-import {ViewStyle} from 'react-native';
+declare module "react-native-stock-star-rating" {
+  import { FC } from "react";
+  import { ViewStyle } from "react-native";
 
-export interface RatingProps {
-        /**
-    * State variable that will store the rating
-    */
-        rating: number,
-
-        /**
-    * Function to set the rating which will be stored in your local state
-    */
-        setRating: React.Dispatch<React.SetStateAction<undefined>>,
+  // The existing RatingProps interface
+  export interface RatingProps {
+    /**
+     * State variable that will store the rating
+     */
+    rating: number;
 
     /**
-    * Max number of stars to show (Default 5)
-    */
-        maxStars?: number,
+     * Function to set the rating which will be stored in your local state
+     */
+    setRating: React.Dispatch<React.SetStateAction<number | null>>;
 
     /**
-    * Rating stars to show (Default 0)
-    */
-        stars?: number,
+     * Max number of stars to show (Default 5)
+     */
+    maxStars?: number;
 
     /**
-    * Size of the stars
-    */
-        size?: number,
+     * Rating stars to show (Default 0)
+     */
+    stars?: number;
 
     /**
-    * Color of the stars
-    */
-        color?: string,
-    
+     * Size of the stars
+     */
+    size?: number;
+
     /**
-    * If bordered stars are to be shown
-    */
-        bordered?: boolean,
-    
+     * Color of the stars
+     */
+    color?: string;
+
     /**
-    * Callback Function to call after the rating is given
-    */
-        onRating?: () => void,
+     * If bordered stars are to be shown
+     */
+    bordered?: boolean;
+
+    /**
+     * Callback Function to call after the rating is given
+     */
+    onRating?: () => void;
+  }
+
+  // Declare both components
+  export const Rating: FC<
+    Omit<RatingProps, "rating" | "setRating" | "onRating">
+  >;
+  export const RatingInput: FC<RatingProps>;
+
+  // If there are any other exports from the library, declare them here
+  export const FilledStar: FC<{ size: number; color: string }>;
+  export const EmptyStar: FC<{ size: number; color: string }>;
 }
